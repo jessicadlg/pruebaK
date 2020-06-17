@@ -12,7 +12,7 @@ public class Rectangulo extends Figura {
 
 	@Override
 	public Double calcularElArea() {
-		return (this.ladoA + this.ladoB);
+		return (this.ladoA) *( this.ladoB);
 	}
 
 	@Override

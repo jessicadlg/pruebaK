@@ -54,6 +54,6 @@ public class TestContenedor {
 		contenedor.agregar(f1);
 		contenedor.agregar(f2);
 		
-		assertEquals(159.57, contenedor.calcularPromedioDeAreaDeTodasLasFiguras(),0.01);
+		assertEquals(160.07, contenedor.calcularPromedioDeAreaDeTodasLasFiguras(),0.01);
 	}
 }

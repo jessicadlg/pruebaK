@@ -1,8 +1,6 @@
 package ar.edu.unlam.basica2.eva2;
 
 public abstract class Figura {
-	//composicion
-	private ContenedorFigura cont;
 	private String color;
 	
 	public String getColor() {
@@ -23,7 +21,4 @@ public abstract class Figura {
 	public abstract Double calcularElPerimetro();
 	//Devuelve Un String Informando EL nombre con el cual se instancio Una figura 
 	public abstract String dibujarFigura();
-	
-	
-
 }

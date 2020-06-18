@@ -30,5 +30,4 @@ public class Circulo extends Figura {
 		return "Circulo";
 	}
 
-	
 }

@@ -47,8 +47,6 @@ public class ContenedorFigura {
 
 	}
 
-	
-
 	public ArrayList<Figura> getListaFiguras() {
 		return listaFiguras;
 	}

@@ -17,13 +17,13 @@ public class TestRectangulo {
 	public void testQueVerificaElAreaDeUnRectangulo() {
 
 		Rectangulo r1 = new Rectangulo (2.0,3.0,"Azul");
-		assertEquals (5, r1.calcularElArea(),0.0);
+		assertEquals (6.0, r1.calcularElArea(),0.0);
 	}
 	
 	@Test
 	public void testQueVerificaElPerimetroDeUnRectangulo() {
 
 		Rectangulo r1 = new Rectangulo (2.0,3.0,"Azul");
-		assertEquals (10, r1.calcularElPerimetro(),0.0);
+		assertEquals (10.0, r1.calcularElPerimetro(),0.0);
 	}
 }

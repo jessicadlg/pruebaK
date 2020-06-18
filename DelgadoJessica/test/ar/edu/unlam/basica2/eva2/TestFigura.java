@@ -18,9 +18,8 @@ public class TestFigura {
 		Figura f1= r1;
 		//verificacion
 		assertTrue(f1 instanceof Rectangulo);
-		//intancio figura como circulo
-		f1= c1;
 		
+		f1= c1;
 		//verificacion:
 		
 		assertTrue(f1 instanceof Circulo);

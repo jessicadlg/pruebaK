@@ -37,9 +37,4 @@ public class Rectangulo extends Figura {
 	public void setLadoB(Double ladoB) {
 		this.ladoB = ladoB;
 	}
-
-	
-	
-
-
 }
